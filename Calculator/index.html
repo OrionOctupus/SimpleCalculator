@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Simple Calculator</title>
+    <link rel="stylesheet" href="style.css"/>
+    <script src="main.js" defer></script>
+</head>
+<body>
+
+
+<div class="case">
+    <p class="ver">ver. 1.0</p>
+    <div class="field">
+        <input type="text"  class="field" id="display" maxlength="5" placeholder="0.0" disabled/>
+    </div>
+        <div class="numpad">
+<!--пятый ряд-->
+            <!--<button type="button" class="dig "></button>-->
+            <!--<button type="button" class="dig "></button>-->
+            <!--<button type="button" class="dig "></button>-->
+            <!--<button type="button" class="dig "></button>-->
+            <!--<button type="button" class="dig "></button>-->
+<!--четвертый ряд-->
+            <button type="button" class="dig number">7</button>
+            <button type="button" class="dig number">8</button>
+            <button type="button" class="dig number">9</button>
+            <button type="button" class="dig operation">&divide;</button>
+            <button type="button" class="dig clear marker" id="c">C</button>
+<!--третий ряд-->
+            <button type="button" class="dig number">4</button>
+            <button type="button" class="dig number">5</button>
+            <button type="button" class="dig number">6</button>
+            <button type="button" class="dig operation">&times;</button>
+            <button type="button" class="dig clear" id="ce">CE</button>
+<!--второй ряд-->
+            <button type="button" class="dig number">1</button>
+            <button type="button" class="dig number">2</button>
+            <button type="button" class="dig number">3</button>
+            <button type="button" class="dig operation">&minus;</button>
+            <button type="button" class="dig marker operation" id="result">=</button>
+<!--первый ряд-->
+            <button type="button" class="dig number" id="zero">0</button>
+            <button type="button" class="dig " id="decimal">.</button>
+            <button type="button" class="dig operation" >+</button>
+
+        </div>
+
+</div>
+</body>
+</html>
