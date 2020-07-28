@@ -1,3 +1,4 @@
-#SimpleCalculator 
+# SimpleCalculator</br>
+
 Простейший калькулятор созданный в учебных целях,</br>
 для отработки навыков программирования на JavaScript
